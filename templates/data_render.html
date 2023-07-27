@@ -6,11 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <center>
-        <h1>this is my new html page</h1>
-        <h1>the name of the student is {{name}}</h1>
-        <h1>age of the student is {{age}}</h1>
-    </center>
-    
+    <h1>this is html psge which uses jinja operation tags</h1>
+{% if age > 30 %}
+   <h1>sge of student is {{age}}</h1>
+{% endif %}
 </body>
 </html>
